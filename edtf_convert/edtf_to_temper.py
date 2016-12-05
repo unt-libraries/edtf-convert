@@ -18,7 +18,7 @@ DATES = re.compile(r'\d+')
 
 # Pattern to identify a TEMPER date. Pattern does not currently support
 # timezones.
-TEMPER = re.compile(r'^(?:(?:(?<![?])(?:bce|-)?\d{4,})[?]?~?(?:-|, (?=(?:bce|-)?\d{4,}))?)*$',
+TEMPER = re.compile(r'^(?:(?:(?<![?])(?:bce|-)?\d{4,})[?]?~?(?:-|, (?=(?:bce|-)?\d{4,}))?)+$',
                     re.I)
 
 # Dates with a season look like 2016-21.

@@ -33,6 +33,7 @@ from edtf_convert import edtf_to_temper
     ('unknown/2006', '(:unav) unavailable'),
     ('2004-01-01/unknown', '20040101-'),
     ('[-0174..-0132]', '-0174--0132'),
+    ('', '(:unav) unavailable'),
 ])
 def test_edtf_to_temper(edtf_date, temper_date):
     assert edtf_to_temper.EDTFToTEMPER(edtf_date).temper == temper_date
