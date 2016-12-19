@@ -1,4 +1,4 @@
-# codalib [![Build Status](https://travis-ci.org/unt-libraries/edtf-convert.svg?branch=master)](https://travis-ci.org/unt-libraries/edtf-convert)
+# edtf-convert [![Build Status](https://travis-ci.org/unt-libraries/edtf-convert.svg?branch=master)](https://travis-ci.org/unt-libraries/edtf-convert)
 A library for date format conversions involving Extended Date/Time Format (EDTF).
 Currently support is only for EDTF to TEMPER.
 
