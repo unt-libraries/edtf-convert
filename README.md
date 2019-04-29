@@ -11,7 +11,7 @@ $ python setup.py install
 
 In Python:
 ```python
->>> from edtf_to_temper import EDTFToTEMPER
+>>> from edtf_convert.edtf_to_temper import EDTFToTEMPER
 >>> print(EDTFToTEMPER("2012-10-12").temper)
 20121012
 ```
