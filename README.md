@@ -1,4 +1,4 @@
-# edtf-convert ![Build Status](https://github.com/unt-libraries/edtf-convert/actions/workflows/test.yml/badge.svg)
+# edtf-convert [![Build Status](https://github.com/unt-libraries/edtf-convert/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/unt-libraries/edtf-convert/actions)
 A library for date format conversions involving Extended Date/Time Format (EDTF).
 Currently support is only for EDTF to TEMPER.
 
